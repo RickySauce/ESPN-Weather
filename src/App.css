@@ -1,0 +1,29 @@
+#main {
+  height: 100%;
+}
+
+#app {
+  padding: 1%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 1.5px rgba(0,0,0,0.2); 
+}
+
+.container {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.card {
+  max-width: 50%;
+  display: flex;
+  border-radius: 25px;
+  margin: 1%;
+  flex-direction: row;
+  flex-grow: 2;
+  box-shadow: 0px 0px 0px 1.5px rgb(235, 235, 252);
+}
+
+.wrapper {
+  display: contents;
+}

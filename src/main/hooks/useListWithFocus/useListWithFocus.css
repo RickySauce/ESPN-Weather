@@ -1,0 +1,16 @@
+.can-focus:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.not-focused {
+    opacity: .1;
+}
+
+.is-focused {
+    margin-left: 5%;
+    margin-right: 5%;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
